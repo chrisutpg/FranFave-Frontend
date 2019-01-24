@@ -2,7 +2,7 @@
   <div id="app">
     <v-app>
       <v-navigation-drawer app></v-navigation-drawer>
-      <v-toolbar app></v-toolbar>
+      <navbar/>
       <v-content>
         <v-container fluid>
           <router-view></router-view>

@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import '@mdi/font/css/materialdesignicons.css'
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -9,6 +10,7 @@ Vue.config.productionTip = false
 
 // Override default theme for Vuetify
 Vue.use(Vuetify, {
+  iconfont: 'mdi',
   theme: {
     "primary": "#673ab7",
     "secondary": "#757575",

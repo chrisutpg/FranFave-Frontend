@@ -8,15 +8,16 @@
   },
   "dependencies": {
     "auth0-js": "^9.4.1",
-    "vue": "^2.5.13",
+    "vue": "^2.5.22",
     "vue-router": "^3.0.1",
     "vuetify": "^1.4.3",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@mdi/font": "^3.3.92",
     "@vue/cli-plugin-babel": "^3.0.0-beta.6",
     "@vue/cli-service": "^3.0.0-beta.6",
-    "vue-template-compiler": "^2.5.13"
+    "vue-template-compiler": "^2.5.22"
   },
   "browserslist": [
     "> 1%",
