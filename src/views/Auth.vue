@@ -18,7 +18,6 @@ export default {
       router.push({ name: 'home' })
     }).catch(err => {
       // some meaningful error handling here ...
-      console.log(router.hash)
       console.error(err)
     })
 

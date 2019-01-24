@@ -12,7 +12,7 @@ export default class Authenticator {
     })
 
   login () {
-    this.auth0.popup.authorize({prompt: 'login'})
+    this.auth0.authorize({prompt: 'login'})
   }
 
   handleAuthentication () {
